@@ -1,5 +1,5 @@
 require_relative "movie"
-require_relative 'watchlist'
+require_relative "watchlist"
 
 class MovieWatchlistCLI
     def initialize

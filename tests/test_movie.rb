@@ -1,4 +1,4 @@
-# test/test_movie.rb
+# tests/test_movie.rb
 
 require 'minitest/autorun'
 require './movie'
