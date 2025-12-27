@@ -18,4 +18,8 @@ class Watchlist
     def find_movie(title)
         @movies.find { |movie| movie.title.downcase == title.downcase }
     end
+
+    def unwatched_movies
+        @movies.select { |movies| !movie.watched }
+    end
 end
